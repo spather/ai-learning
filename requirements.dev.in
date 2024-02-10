@@ -1,0 +1,15 @@
+black
+ipykernel
+line_profiler
+matplotlib
+mypy
+nbdev
+numpy
+pip-tools
+seaborn
+scikit-learn
+sympy
+torch
+tqdm
+types-requests
+types-tqdm
