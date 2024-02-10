@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "ai-learning"
+  site-url: "https://spather.github.io/ai-learning"
+  description: "A repo for exploring fundamental concepts in math and AI."
+  repo-branch: main
+  repo-url: "https://github.com/spather/ai-learning"
