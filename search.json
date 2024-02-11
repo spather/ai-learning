@@ -1,0 +1,22 @@
+[
+  {
+    "objectID": "mix-gaussians.html",
+    "href": "mix-gaussians.html",
+    "title": "mix-gaussians",
+    "section": "",
+    "text": "import matplotlib.pyplot as plt\nimport seaborn as sns\nimport torch\n\n\n# Gaussian Parameters\ntorch.manual_seed(1442)\nn_guassians = 25\nmu = torch.randn(n_guassians)\nsigma = torch.randn(n_guassians) ** 2 # This should probably have different params\nweights = torch.rand(n_guassians)\nweights /= weights.sum()\n\n\ndef sample():\n    return torch.normal(mu, sigma)[torch.multinomial(weights, 1).item()]\n\n\nn_samples = 10000\nsamples = torch.tensor([sample() for _ in range(n_samples)])\n\n\n_ = sns.kdeplot(samples.numpy())",
+    "crumbs": [
+      "mix-gaussians"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ai-learning",
+    "section": "",
+    "text": "For now nbs/ just contains some exploratory notebooks.",
+    "crumbs": [
+      "ai-learning"
+    ]
+  }
+]
