@@ -5,4 +5,4 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://spather.github.io',
                 'git_url': 'https://github.com/spather/ai-learning',
                 'lib_path': 'ai_learning'},
-  'syms': {'ai_learning.core': {'ai_learning.core.foo': ('core.html#foo', 'ai_learning/core.py')}}}
+  'syms': {}}
