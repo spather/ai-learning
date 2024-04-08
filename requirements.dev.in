@@ -6,6 +6,7 @@
 
 black
 ipykernel
+lightning
 line_profiler
 matplotlib
 mypy
@@ -16,6 +17,7 @@ seaborn
 scikit-learn
 sympy
 torch
+torchvision
 tqdm
 types-requests
 types-tqdm
